@@ -53,9 +53,11 @@ El análisis sugiere mantener o promover el plan **Ultimate** como el principal 
 
 ## 📁 Estructura del proyecto
 
-project5_megaline_analysis/
+Analisis-Planes-Megaline/
 
-├── project5_megaline_analysis_cleaned.py # Código fuente del análisis
+├── Src/Proyecto_Analisis_Tarifas_Prepago_Megaline.py # Código fuente del análisis
+
+├── Data/ #Datasets del proyecto
 
 ├── requirements.txt # Librerías necesarias
 
