@@ -1,45 +1,74 @@
 # 📱 Análisis de Tarifas de Prepago - Megaline
 
-Este proyecto analiza el comportamiento de 500 clientes de la empresa de telecomunicaciones Megaline, con el objetivo de determinar cuál de sus dos planes de prepago (Surf o Ultimate) genera mayores ingresos. El análisis incluye limpieza, enriquecimiento de datos, visualizaciones, estadística descriptiva e inferencial.
-
-## 📌 Objetivo
-
-Evaluar el rendimiento financiero de los planes **Surf** y **Ultimate**, y proponer recomendaciones basadas en el análisis de datos reales de consumo (llamadas, mensajes, internet) por usuario.
-
-## 🧰 Herramientas utilizadas
-
-- Python (Pandas, NumPy, SciPy, Seaborn, Matplotlib)
-- Jupyter Notebook
-- Pruebas de hipótesis (t-test)
-- Estadística descriptiva e inferencial
-
-## 📊 Contenido del análisis
-
-- Limpieza y transformación de cinco datasets (usuarios, llamadas, mensajes, internet, planes)
-- Cálculo de ingresos mensuales por usuario
-- Visualización del comportamiento de consumo por plan
-- Comparación de ingresos entre planes
-- Análisis geográfico de ingresos (NY-NJ vs otras regiones)
-- Pruebas estadísticas para validar diferencias de ingresos
-
-## 📎 Archivos
-
-- `Data/` : Datasets utilizados en este proyecto
-- `Proyecto_Analisis_Tarifas_Prepago_Megaline.py`: Código completo del proyecto
-- `requirements.txt`: Librerías necesarias para ejecutar el proyecto
-
-## 📈 Resultados clave
-
-- El plan **Ultimate** genera mayores ingresos promedio y es más estable en comparación con **Surf**, a pesar de un consumo de recursos relativamente similar.
-- Usuarios del plan **Surf** tienden a exceder su límite de datos, generando ingresos variables por sobrecargos.
-- Existen diferencias estadísticamente significativas entre los ingresos por plan y entre regiones.
-
-## 🧠 Conclusión
-
-Recomendar una revisión estratégica del plan **Surf**, ya que muchos usuarios superan sus límites sin que eso se traduzca en mayores ingresos sostenibles. El plan **Ultimate**, aunque más costoso, ofrece ingresos más estables y predecibles para la empresa.
+[![Made with Python](https://img.shields.io/badge/Made%20with-Python%203.10-blue.svg)](https://www.python.org/)
+[![Data Science Bootcamp](https://img.shields.io/badge/Proyecto-Bootcamp-green)](#)
+[![Status](https://img.shields.io/badge/Status-Completo-brightgreen)](#)
 
 ---
 
-👨‍💻 Desarrollado por Axel López  
-📅 Proyecto de portafolio - Bootcamp de Ciencia de Datos  
+Este proyecto analiza el comportamiento de 500 clientes de la empresa de telecomunicaciones **Megaline**, con el objetivo de identificar cuál de los dos planes de prepago disponibles —**Surf** o **Ultimate**— genera mayores ingresos mensuales para la compañía.  
+Se realiza un análisis integral desde la transformación de datos hasta pruebas estadísticas para respaldar decisiones comerciales informadas.
+
+---
+
+## 📌 Objetivo
+
+Evaluar el rendimiento financiero de ambos planes utilizando técnicas de ciencia de datos y proponer recomendaciones estratégicas basadas en datos de consumo real (llamadas, mensajes y datos móviles).
+
+---
+
+## 🛠️ Herramientas utilizadas
+
+- `Python`
+- `Pandas`, `NumPy`
+- `Matplotlib`, `Seaborn`
+- `SciPy` (t-test)
+- `Jupyter Notebook`
+
+---
+
+## 📊 Contenido del análisis
+
+- ✔ Limpieza y transformación de 5 datasets
+- ✔ Cálculo de ingresos mensuales por usuario
+- ✔ Visualización del comportamiento de consumo por plan
+- ✔ Análisis comparativo por región (NY-NJ vs otras)
+- ✔ Pruebas de hipótesis para evaluar diferencias estadísticas
+
+---
+
+## 📈 Resultados clave
+
+- El plan **Ultimate** genera ingresos promedio más altos y estables.
+- Los usuarios del plan **Surf** exceden constantemente sus límites, generando ingresos variables por sobrecargos.
+- Se confirmaron diferencias estadísticamente significativas entre ingresos de planes y regiones.
+
+---
+
+## 🧠 Conclusión
+
+El análisis sugiere mantener o promover el plan **Ultimate** como el principal generador de ingresos sostenibles. El plan **Surf**, aunque popular, requiere ajustes para mejorar su rentabilidad o segmentación adecuada de clientes.
+
+---
+
+## 📁 Estructura del proyecto
+
+project5_megaline_analysis/
+
+├── project5_megaline_analysis_cleaned.py # Código fuente del análisis
+
+├── requirements.txt # Librerías necesarias
+
+├── .gitignore
+
+└── README.md
+
+---
+
+## 👨‍💻 Autor
+
+**Axel López**  
+
 🔗 [LinkedIn](https://www.linkedin.com/in/axel-lópez-linares/)
+
+🎯 Proyecto de portafolio - Bootcamp de Ciencia de Datos
